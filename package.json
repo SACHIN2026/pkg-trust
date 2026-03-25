@@ -1,0 +1,25 @@
+{
+  "name": "pkg-trust",
+  "version": "1.0.0",
+  "description": "CLI tool to detect AI-hallucinated, typosquatted, and suspicious npm packages",
+  "main": "dist/checker.js",
+  "bin": {
+    "pkg-trust": "./dist/cli.js"
+  },
+  "files": ["dist"],
+  "keywords": ["security", "npm", "typosquat", "slopsquatting", "supply-chain", "cli"],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/cli.ts src/checker.ts --format cjs --dts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "fast-levenshtein": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  }
+}
