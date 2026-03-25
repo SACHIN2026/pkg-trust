@@ -1,6 +1,6 @@
 {
   "name": "pkg-trust",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to detect AI-hallucinated, typosquatted, and suspicious npm packages",
   "main": "dist/checker.js",
   "bin": {
