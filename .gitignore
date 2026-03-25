@@ -13,7 +13,10 @@ yarn-error.log*
 # OS/editor
 .DS_Store
 
-# Coverage / build artifacts (keep `dist/` because it's published in package.json `files`)
+# Coverage / build artifacts
 coverage/
 .nyc_output/
+
+# Compiled output (npm will build during publish)
+dist/
 
