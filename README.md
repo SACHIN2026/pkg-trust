@@ -1,3 +1,8 @@
+[![CI](https://github.com/SACHIN2026/pkg-trust/actions/workflows/ci.yml/badge.svg)](https://github.com/SACHIN2026/pkg-trust/actions)
+[![npm version](https://img.shields.io/npm/v/pkg-trust.svg)](https://www.npmjs.com/package/pkg-trust)
+[![npm downloads](https://img.shields.io/npm/dw/pkg-trust.svg)](https://www.npmjs.com/package/pkg-trust)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # pkg-trust 🔍
 
 > Detect AI-hallucinated, typosquatted, and suspicious npm packages before you install them.
